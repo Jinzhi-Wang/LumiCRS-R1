@@ -1,1 +1,1 @@
-# LumiCRS-R1
+# LumiCRS: Asymmetric Contrastive Prototype Learning for Long-Tail Conversational Movie Recommendation
