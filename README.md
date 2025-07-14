@@ -56,7 +56,7 @@ With these modules, LumiCRS enables accurate, balanced, and diverse recommendati
 <br>
 
 <p align="center">
-  <img src="assets/fig3_method.png" width="600">>
+  <img src="assets/fig3_method.png" width="600">
 </p>
 <p>
 
