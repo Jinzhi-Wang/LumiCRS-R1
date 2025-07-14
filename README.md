@@ -1,7 +1,7 @@
 <div align="center">
-<h3>OctoNav: Towards Generalist Embodied Navigation</h3>
+<h3>LumiCRS: Asymmetric Contrastive Prototype Learning for Long-Tail Conversational Movie Recommendation</h3>
 
-[Chen Gao](https://chengaopro.github.io/)<sup>1,2*</sup>&nbsp;
+[Jinzhi Wang](https://github.com/Jinzhi-Wang/)<sup>1*</sup>&nbsp;
 Liankai Jin<sup>1*</sup>&nbsp;
 Xingyu Peng<sup>1,4*</sup>&nbsp;
 [Jiazhao Zhang](https://jzhzhang.github.io/)<sup>3</sup>&nbsp;
