@@ -7,15 +7,12 @@ Qingke Peng<sup>1*</sup>&nbsp;
 Haozhou Li<sup>1</sup>&nbsp;
 Zeyuan Zeng<sup>1</sup>&nbsp;
 Ruimeng Li<sup>1</sup>&nbsp;
+<br>
 Kaixuan Yang<sup>3</sup>&nbsp;
 Jiangbo Zhang<sup>4</sup>&nbsp;
 Yaoying Wang <sup>5</sup>&nbsp;
 Biyi Zhou <sup>1</sup>&nbsp;
-<br>
-Yue Deng<sup>1,4</sup>&nbsp;
-Annan Li<sup>1</sup>&nbsp;
-[He Wang](https://scholar.google.com/citations?hl=zh-CN&user=roCAWkoAAAAJ)<sup>3</sup>&nbsp;
-[Si Liu](https://scholar.google.com/citations?user=-QtVtNEAAAAJ&hl=zh-CN)<sup>1+</sup>&nbsp;
+
 
 <sup>1</sup>Beihang University&nbsp; <sup>2</sup> National University of Singapore&nbsp; <sup>3</sup>Peking University&nbsp; <sup>4</sup>Zhongguancun Academy&nbsp;
  
