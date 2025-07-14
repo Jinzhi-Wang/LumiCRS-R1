@@ -20,7 +20,7 @@ Biyi Zhou <sup>1</sup>&nbsp;
 <br><sup>4</sup>School of Electronic Science and Engineering, Xi’an Jiaotong University&nbsp;
 <br><sup>5</sup>School of Software, Xi’an Jiaotong University&nbsp;
  
-[![ArXiv](https://img.shields.io/badge/ArXiv-<2506.09839>-<COLOR>.svg)](https://arxiv.org/pdf/2507.04722) [![Webpage]
+[![ArXiv](https://img.shields.io/badge/ArXiv-<2506.09839>-<COLOR>.svg)](https://arxiv.org/pdf/2507.04722)
 <p align="center">
   <img src="assets/teaser.png" width="600">>
 </p>https://arxiv.org/abs/2507.04722
