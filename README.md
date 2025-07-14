@@ -1,10 +1,16 @@
 <div align="center">
 <h3>LumiCRS: Asymmetric Contrastive Prototype Learning for Long-Tail Conversational Movie Recommendation</h3>
 
-[Jinzhi Wang](https://github.com/Jinzhi-Wang/)<sup>1*</sup>&nbsp;
-Liankai Jin<sup>1*</sup>&nbsp;
-Xingyu Peng<sup>1,4*</sup>&nbsp;
-[Jiazhao Zhang](https://jzhzhang.github.io/)<sup>3</sup>&nbsp;
+[Jinzhi Wang](https://github.com/Jinzhi-Wang/)<sup>1</sup>&nbsp;
+Bin Li<sup>2</sup>&nbsp;
+Qingke Peng<sup>1*</sup>&nbsp;
+Haozhou Li<sup>1</sup>&nbsp;
+Zeyuan Zeng<sup>1</sup>&nbsp;
+Ruimeng Li<sup>1</sup>&nbsp;
+Kaixuan Yang<sup>3</sup>&nbsp;
+Jiangbo Zhang<sup>4</sup>&nbsp;
+Yaoying Wang <sup>5</sup>&nbsp;
+Biyi Zhou <sup>1</sup>&nbsp;
 <br>
 Yue Deng<sup>1,4</sup>&nbsp;
 Annan Li<sup>1</sup>&nbsp;
