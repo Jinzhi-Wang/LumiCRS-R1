@@ -14,7 +14,11 @@ Yaoying Wang <sup>5</sup>&nbsp;
 Biyi Zhou <sup>1</sup>&nbsp;
 
 
-<sup>1</sup>Organizational Management Department, School of Management, Xi’an Jiaotong University&nbsp; <sup>2</sup> Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences&nbsp; <sup>3</sup>State Key Laboratory of Multiphase Flow in Power Engineering, School of Energy and Power Engineering, Xi’an Jiaotong University&nbsp; <sup>4</sup>School of Electronic Science and Engineering, Xi’an Jiaotong University&nbsp;<sup>5</sup>School of Software, Xi’an Jiaotong University&nbsp;
+<sup>1</sup>Organizational Management Department, School of Management, Xi’an Jiaotong University&nbsp;
+<br><sup>2</sup> Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences&nbsp;
+<br><sup>3</sup>State Key Laboratory of Multiphase Flow in Power Engineering, School of Energy and Power Engineering, Xi’an Jiaotong University&nbsp; 
+<br><sup>4</sup>School of Electronic Science and Engineering, Xi’an Jiaotong University&nbsp;
+<br><sup>5</sup>School of Software, Xi’an Jiaotong University&nbsp;
  
 [![ArXiv](https://img.shields.io/badge/ArXiv-<2506.09839>-<COLOR>.svg)](https://arxiv.org/pdf/2506.09839) [![Webpage](https://img.shields.io/badge/Webpage-OctoNav-<COLOR>.svg)](https://buaa-colalab.github.io/OctoNav/) [![Demo](https://img.shields.io/badge/Demo-Robot-<COLOR>.svg)](https://buaa-colalab.github.io/OctoNav/)
 
