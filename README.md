@@ -11,7 +11,7 @@ Ruimeng Li<sup>1</sup>&nbsp;
 Kaixuan Yang<sup>3</sup>&nbsp;
 Jiangbo Zhang<sup>4</sup>&nbsp;
 Yaoying Wang<sup>5</sup>&nbsp;
-Biyi Zhou<sup>4</sup>&nbsp;
+Biyi Zhou<sup>1</sup>&nbsp;
 
 <sup>1</sup> Organizational Management Department, School of Management, Xi’an Jiaotong University&nbsp; 
 <br>
