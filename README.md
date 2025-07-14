@@ -33,39 +33,49 @@ The following figure illustrates the motivation and design of LumiCRS. On the le
 
 To address these issues, LumiCRS introduces three key components (see C):
 
-ACFL (Adaptive Contrastive Focal Loss): balances overall accuracy and head-class suppression;
+* **ACFL (Adaptive Contrastive Focal Loss):** balances overall accuracy and head-class suppression;
 
-Prototype-based Contrastive Learning: improves semantic robustness for mid-/tail items;
+* **Prototype-based Contrastive Learning:** improves semantic robustness for mid-/tail items;
 
-Prototype-driven Augmentation (PDA): generates diverse and relevant contexts for tail enhancement.
+* **Prototype-driven Augmentation (PDA):** generates diverse and relevant contexts for tail enhancement.
 
 Together, these modules form a robust framework tailored for long-tail and cold-start challenges in conversational recommendation.
 
 ## TO DO
-- [ ] Release of OctoNav-Bench for training and evaluation.
-- [ ] Release of OctoNav-R1.
-      
-## What is the OctoNav-Bench?
-A large-scale and unified benchmark specifically designed for generalist embodied navigation, which is distinguished by the following core features. 
-* **Large-scale Annotations:** OctoNav-Bench encompasses 400+ diverse 3D scenes sourced from widely used HM3D and Gibson etc. Also, OctoNav-Bench provides 45k+ annotated instruction-trajectory pairs via the designed automatic annotation pipeline, supporting large-scale training. 
-* **Freeform, Multi-Model and Multi-capability Instructions:** The instructions are generated in free-form descriptions. First, the capabilities included in the instruction are sampled from arbitrary combinations of ObjNav, PointNav, ImgNav, Ins-ImgNav, and VLN, i.e., each instruction contains multiple navigation capabilities simultaneously. Moreover, these instructions are multimodal, incorporating textual, visual (e.g., reference scene-/object-level images), and spatial (e.g., coordinates) descriptions.
-* **TBA-CoT Dataset:** We leverage Qwen-VL and DeepSeek-R1 to construct a Think-Before-Action Chain-of-Thought (TBA-CoT) dataset, which captures the deliberative reasoning process behind each action decision. Such a dataset can be used to supervise and enhance the agent’s reasoning ability.
-* **Continuous Environments with RL Support:** Unlike discrete or graph-based settings, OctoNav-Bench provides continuous simulation environments, allowing agents to move freely and acquire visual observations at arbitrary locations. Thus, it supports active learning like online RL.
+- [ ] Release full LumiCRS codebase (training & inference) .
+- [ ] Publish pretrained models and benchmark results .
+- [ ] Add documentation and quick-start tutorials
+
+## What is LumiCRS?
+LumiCRS is a robust and generalizable conversational recommender system, specifically designed to handle long-tail movie recommendation challenges in real-world dialogue settings. It is distinguished by the following core components: 
+* **Adaptive Loss for Bias Mitigation:** LumiCRS introduces the Adaptive Contrastive Focal Loss (ACFL) to simultaneously suppress head-class overfitting and improve tail item exposure, aligning with popularity-aware fairness constraints.
+* **Prototype-based Contrastive Learning:**  A novel prototype learning module is designed to stabilize mid-/tail movie representations by semantically clustering similar items. It enhances representation quality, especially for under-represented entities.
+* **Prototype-Driven Augmentation (PDA):** LumiCRS constructs an intelligent data augmentation framework that dynamically generates diverse and contextually relevant dialogues for low-frequency movies using prototype-guided sampling.
+With these modules, LumiCRS enables accurate, balanced, and diverse recommendations under sparse and skewed data distributions.
 <br>
 <br>
 
 <p align="center">
-  <img src="assets/comparison.png" width="600">>
+  <img src="assets/fig3_method.png" width="600">>
 </p>
 <p>
+
   <em style="font-size: 12px;">
 *Comparisons between OctoNav-Bench and previous benchmarks.* NT denotes the task number. Mixed indicates whether a single instruction integrates multiple capabilities. Modality is the modality within instructions, where [V,L,P] denote [vision, language, point]. TBA presents the think-before-action annotations. DE, CE denote the discrete and continuous environments.
   </em>
 </p>
 
-## What is the OctoNav-R1?
-A VLA-based model designed and trained on OctoNav-Bench, and is distinguished by the following key aspects: 
-* **Free-form, Multimodal and Multi-capability Instruction Following:** OctoNav-R1 can accept free-form instructions that comprise multi-modal and multi-capability. Based on step-wise egocentric visual observations, the model can directly generate a sequence of low-level actions (e.g., move forward, turn left/right), enabling it to follow complex instructions in a unified manner. 
-* **RL-enhanced VLA Hybrid Training Paradigm:** Unlike conventional VLA models that are typically fine-tuned via SFT on static datasets, OctoNav-R1 are trained by the proposed Hybrid Training Paradigm (HTP). Specifically, we integrate RL into the VLA training pipeline, making HTP combine Action-/TBA-SFT, Nav-GRPO, and online RL stages. 
-* **Thinking-Before-Action:** Inspired by the long CoT reasoning within DeepSeek-R1, we argue that previous VLA models, which directly map observations to actions, lack explicit thinking processes and struggle with complicated tasks. Therefore, we leverage the TBACoT dataset to train OctoNav-R1 via TBA-SFT and Nav-GRPO, endowing the model with the ability to jointly produce thinking thoughts and action sequences. 
-* **Initial Sim2Real Generalization:** We deploy OctoNav-R1 on physical robots, and observe preliminary sim-to-real transfer ability without real-world fine-tuning. It further confirms the annotated OctoNav-Bench and designed OctoNav-R1.
+## CBenchmarking LumiCRS: Recommendation Accuracy, Long-Tail Coverage, and Response Quality
+
+* **Overall Recommendation Accuracy (Recall/NDCG/MRR):** Table 1 shows the overall recommendation performance of LumiCRS compared to previous state-of-the-art methods on ReDial and INSPIRED datasets. LumiCRS consistently outperforms all baselines across multiple ranking metrics including Recall@K, NDCG@K, and MRR@K. Notably, LumiCRS achieves an average of +7.95%, +6.72%, and +9.76% gain in Recall@1/10/50 on ReDial. On INSPIRED, it yields an average +8.33%, +6.61%, and +9.65% improvement in the same metrics, demonstrating its strong recommendation accuracy.
+<p align="center">
+  <img src="assets/tabel1.png" width="600">>
+</p>
+* **Long-Tail Recommendation & Diversity:** Table 2 evaluates the ability of LumiCRS to recommend niche (tail) items, covering TailRecall@K, Coverage@K, and ILD@K. LumiCRS demonstrates substantial improvements in long-tail performance, particularly with +14.29% TailRecall@1 and +11.76% TailRecall@50 on ReDial, and similar trends on INSPIRED. Meanwhile, it maintains broader item coverage and diversity (ILD), highlighting its strength in addressing popularity bias and enriching recommendations. 
+<p align="center">
+  <img src="assets/tabel1.png" width="600">>
+</p>
+* **Response Generation Quality:** Table 3 compares LumiCRS with generation-based models on language quality metrics including BLEU, ROUGE, and Distinct (DIST). LumiCRS achieves the highest scores across almost all metrics, such as BLEU-2/3, ROUGE-L, and Distinct-2/3/4, indicating both accurate and diverse natural language generation. This reflects the model’s ability to generate more fluent, informative, and stylistically varied responses.
+<p align="center">
+  <img src="assets/tabel1.png" width="600">>
+</p>
