@@ -61,9 +61,6 @@ With these modules, LumiCRS enables accurate, balanced, and diverse recommendati
 <p>
 
   <em style="font-size: 12px;">
-*Comparisons between OctoNav-Bench and previous benchmarks.* NT denotes the task number. Mixed indicates whether a single instruction integrates multiple capabilities. Modality is the modality within instructions, where [V,L,P] denote [vision, language, point]. TBA presents the think-before-action annotations. DE, CE denote the discrete and continuous environments.
-  </em>
-</p>
 
 ## Benchmarking LumiCRS: Recommendation Accuracy, Long-Tail Coverage, and Response Quality
 
