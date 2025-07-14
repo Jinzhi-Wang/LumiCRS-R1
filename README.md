@@ -1,29 +1,23 @@
 <div align="center">
-<h3>LumiCRS: Asymmetric Contrastive Prototype Learning for Long-Tail Conversational Movie Recommendation</h3>
+<h3>OctoNav: Towards Generalist Embodied Navigation</h3>
 
-[Jinzhi Wang](https://github.com/Jinzhi-Wang/)<sup>1</sup>&nbsp;
-Bin Li<sup>2</sup>&nbsp;
-Qingke Peng<sup>1*</sup>&nbsp;
-Haozhou Li<sup>1</sup>&nbsp;
-Zeyuan Zeng<sup>1</sup>&nbsp;
-Ruimeng Li<sup>1</sup>&nbsp;
+[Chen Gao](https://chengaopro.github.io/)<sup>1,2*</sup>&nbsp;
+Liankai Jin<sup>1*</sup>&nbsp;
+Xingyu Peng<sup>1,4*</sup>&nbsp;
+[Jiazhao Zhang](https://jzhzhang.github.io/)<sup>3</sup>&nbsp;
 <br>
-Kaixuan Yang<sup>3</sup>&nbsp;
-Jiangbo Zhang<sup>4</sup>&nbsp;
-Yaoying Wang <sup>5</sup>&nbsp;
-Biyi Zhou <sup>1</sup>&nbsp;
+Yue Deng<sup>1,4</sup>&nbsp;
+Annan Li<sup>1</sup>&nbsp;
+[He Wang](https://scholar.google.com/citations?hl=zh-CN&user=roCAWkoAAAAJ)<sup>3</sup>&nbsp;
+[Si Liu](https://scholar.google.com/citations?user=-QtVtNEAAAAJ&hl=zh-CN)<sup>1+</sup>&nbsp;
 
-
-<sup>1</sup>Organizational Management Department, School of Management, Xi’an Jiaotong University&nbsp;
-<br><sup>2</sup> Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences&nbsp;
-<br><sup>3</sup>State Key Laboratory of Multiphase Flow in Power Engineering, School of Energy and Power Engineering, Xi’an Jiaotong University&nbsp; 
-<br><sup>4</sup>School of Electronic Science and Engineering, Xi’an Jiaotong University&nbsp;
-<br><sup>5</sup>School of Software, Xi’an Jiaotong University&nbsp;
+<sup>1</sup>Beihang University&nbsp; <sup>2</sup> National University of Singapore&nbsp; <sup>3</sup>Peking University&nbsp; <sup>4</sup>Zhongguancun Academy&nbsp;
  
-[![ArXiv](https://img.shields.io/badge/ArXiv-<2507.04722>-<COLOR>.svg)]
+[![ArXiv](https://img.shields.io/badge/ArXiv-<2506.09839>-<COLOR>.svg)](https://arxiv.org/pdf/2506.09839) [![Webpage](https://img.shields.io/badge/Webpage-OctoNav-<COLOR>.svg)](https://buaa-colalab.github.io/OctoNav/) [![Demo](https://img.shields.io/badge/Demo-Robot-<COLOR>.svg)](https://buaa-colalab.github.io/OctoNav/)
+
 <p align="center">
   <img src="assets/teaser.png" width="600">>
-</p>https://arxiv.org/abs/2507.04722
+</p>
 
 </div>
 On the left, we present the large-scale OctoNav-Bench, which contains diverse instruction-trajectory pairs and the elaborate TBA-CoT dataset across numerous scenes. Based on OctoNav-Bench and our method/training designs, we introduce a VLA-based method, termed OctoNav-R1. On the right, (I) demonstrates the performance comparisons on OctoNav-Bench, where we provide a fine-grained breakdown of accuracy across various navigation capabilities. OctoNav-R1 outperforms previous methods in all capabilities, demonstrating its versatility. (II) presents a robot demo in the real world, which is driven by the OctoNav-R1, showing its preliminary sim2real generalization.
