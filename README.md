@@ -25,11 +25,21 @@ Biyi Zhou<sup>4</sup>&nbsp;
 <br>
 [![ArXiv](https://img.shields.io/badge/ArXiv-<2507.04722>-<COLOR>.svg)](https://arxiv.org/pdf/2507.04722)
 <p align="center">
-  <img src="assets/fig2_introdction2.png" width="600">>
+  <img src="assets/fig2_introdction2.png" width="600">
 </p>
 
 </div>
-On the left, we present the large-scale OctoNav-Bench, which contains diverse instruction-trajectory pairs and the elaborate TBA-CoT dataset across numerous scenes. Based on OctoNav-Bench and our method/training designs, we introduce a VLA-based method, termed OctoNav-R1. On the right, (I) demonstrates the performance comparisons on OctoNav-Bench, where we provide a fine-grained breakdown of accuracy across various navigation capabilities. OctoNav-R1 outperforms previous methods in all capabilities, demonstrating its versatility. (II) presents a robot demo in the real world, which is driven by the OctoNav-R1, showing its preliminary sim2real generalization.
+The following figure illustrates the motivation and design of LumiCRS. On the left (A), we highlight the long-tail distribution in conversational recommendation, where head-class movies dominate, while tail items are severely underrepresented. This causes three major challenges: (1) training loss is dominated by frequent items, leading to overfitting; (2) mid-/tail representations are unstable and poorly clustered; (3) train-test distribution mismatch limits generalization.
+
+To address these issues, LumiCRS introduces three key components (see C):
+
+ACFL (Adaptive Contrastive Focal Loss): balances overall accuracy and head-class suppression;
+
+Prototype-based Contrastive Learning: improves semantic robustness for mid-/tail items;
+
+Prototype-driven Augmentation (PDA): generates diverse and relevant contexts for tail enhancement.
+
+Together, these modules form a robust framework tailored for long-tail and cold-start challenges in conversational recommendation.
 
 ## TO DO
 - [ ] Release of OctoNav-Bench for training and evaluation.
