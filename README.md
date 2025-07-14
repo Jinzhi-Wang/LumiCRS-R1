@@ -65,7 +65,7 @@ With these modules, LumiCRS enables accurate, balanced, and diverse recommendati
   </em>
 </p>
 
-## CBenchmarking LumiCRS: Recommendation Accuracy, Long-Tail Coverage, and Response Quality
+## Benchmarking LumiCRS: Recommendation Accuracy, Long-Tail Coverage, and Response Quality
 
 
 * **Overall Recommendation Accuracy (Recall/NDCG/MRR):** Table 1 shows the overall recommendation performance of LumiCRS compared to previous state-of-the-art methods on ReDial and INSPIRED datasets. LumiCRS consistently outperforms all baselines across multiple ranking metrics including Recall@K, NDCG@K, and MRR@K. Notably, LumiCRS achieves an average of +7.95%, +6.72%, and +9.76% gain in Recall@1/10/50 on ReDial. On INSPIRED, it yields an average +8.33%, +6.61%, and +9.65% improvement in the same metrics, demonstrating its strong recommendation accuracy.
