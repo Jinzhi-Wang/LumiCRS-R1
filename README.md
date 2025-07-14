@@ -1,20 +1,29 @@
 <div align="center">
-<h3>OctoNav: Towards Generalist Embodied Navigation</h3>
+<h3>LumiCRS: Asymmetric Contrastive Prototype Learning for Long-Tail Conversational Recommender Systems</h3>
 
-[Chen Gao](https://chengaopro.github.io/)<sup>1,2*</sup>&nbsp;
-Liankai Jin<sup>1*</sup>&nbsp;
-Xingyu Peng<sup>1,4*</sup>&nbsp;
-[Jiazhao Zhang](https://jzhzhang.github.io/)<sup>3</sup>&nbsp;
+[Jinzhi Wang](https://github.com/Jinzhi-Wang)<sup>1</sup>&nbsp;
+Bin Li<sup>2</sup>&nbsp;
+Qingke Peng<sup>1*</sup>&nbsp;
+Haozhou Li<sup>1</sup>&nbsp;
+eyuan Zeng<sup>1</sup>&nbsp;
+Ruimeng Li<sup>1</sup>&nbsp;
 <br>
-Yue Deng<sup>1,4</sup>&nbsp;
-Annan Li<sup>1</sup>&nbsp;
-[He Wang](https://scholar.google.com/citations?hl=zh-CN&user=roCAWkoAAAAJ)<sup>3</sup>&nbsp;
-[Si Liu](https://scholar.google.com/citations?user=-QtVtNEAAAAJ&hl=zh-CN)<sup>1+</sup>&nbsp;
+Kaixuan Yang<sup>3</sup>&nbsp;
+Jiangbo Zhang<sup>4</sup>&nbsp;
+Yaoying Wang<sup>5</sup>&nbsp;
+Biyi Zhou<sup>4</sup>&nbsp;
 
-<sup>1</sup>Beihang University&nbsp; <sup>2</sup> National University of Singapore&nbsp; <sup>3</sup>Peking University&nbsp; <sup>4</sup>Zhongguancun Academy&nbsp;
- 
-[![ArXiv](https://img.shields.io/badge/ArXiv-<2507.04722>-<COLOR>.svg)](https://arxiv.org/pdf/2507.04722) [![Webpage](https://img.shields.io/badge/Webpage-OctoNav-<COLOR>.svg)](https://buaa-colalab.github.io/OctoNav/) [![Demo](https://img.shields.io/badge/Demo-Robot-<COLOR>.svg)](https://buaa-colalab.github.io/OctoNav/)
-
+<sup>1</sup> Organizational Management Department, School of Management, Xi’an Jiaotong University&nbsp; 
+<br>
+<sup>2</sup> Shenzhen Institute of Advanced Technology, Chinese Academy of Science&nbsp; 
+<br>
+<sup>3</sup>State Key Laboratory of Multiphase Flow in Power Engineering, School of Energy and Power Engineering, Xi’an Jiaotong University&nbsp; 
+<br>
+<sup>4</sup>School of Electronic Science and Engineering, Xi’an Jiaotong University&nbsp;
+<br>
+<sup>5</sup>chool of Software, Xi’an Jiaotong University&nbsp; 
+<br>
+[![ArXiv](https://img.shields.io/badge/ArXiv-<2507.04722>-<COLOR>.svg)](https://arxiv.org/pdf/2507.04722)
 <p align="center">
   <img src="assets/teaser.png" width="600">>
 </p>
