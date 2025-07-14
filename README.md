@@ -25,7 +25,7 @@ Biyi Zhou<sup>4</sup>&nbsp;
 <br>
 [![ArXiv](https://img.shields.io/badge/ArXiv-<2507.04722>-<COLOR>.svg)](https://arxiv.org/pdf/2507.04722)
 <p align="center">
-  <img src="assets/teaser.png" width="600">>
+  <img src="assets/fig2_introdction2.png" width="600">>
 </p>
 
 </div>
