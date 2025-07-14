@@ -67,15 +67,18 @@ With these modules, LumiCRS enables accurate, balanced, and diverse recommendati
 
 ## CBenchmarking LumiCRS: Recommendation Accuracy, Long-Tail Coverage, and Response Quality
 
+
 * **Overall Recommendation Accuracy (Recall/NDCG/MRR):** Table 1 shows the overall recommendation performance of LumiCRS compared to previous state-of-the-art methods on ReDial and INSPIRED datasets. LumiCRS consistently outperforms all baselines across multiple ranking metrics including Recall@K, NDCG@K, and MRR@K. Notably, LumiCRS achieves an average of +7.95%, +6.72%, and +9.76% gain in Recall@1/10/50 on ReDial. On INSPIRED, it yields an average +8.33%, +6.61%, and +9.65% improvement in the same metrics, demonstrating its strong recommendation accuracy.
 <p align="center">
-  <img src="assets/tabel1.png" width="600">>
+  <img src="assets/tabel1.png" width="600">
 </p>
+
 * **Long-Tail Recommendation & Diversity:** Table 2 evaluates the ability of LumiCRS to recommend niche (tail) items, covering TailRecall@K, Coverage@K, and ILD@K. LumiCRS demonstrates substantial improvements in long-tail performance, particularly with +14.29% TailRecall@1 and +11.76% TailRecall@50 on ReDial, and similar trends on INSPIRED. Meanwhile, it maintains broader item coverage and diversity (ILD), highlighting its strength in addressing popularity bias and enriching recommendations. 
 <p align="center">
-  <img src="assets/tabel1.png" width="600">>
+  <img src="assets/tabel1.png" width="600">
 </p>
+
 * **Response Generation Quality:** Table 3 compares LumiCRS with generation-based models on language quality metrics including BLEU, ROUGE, and Distinct (DIST). LumiCRS achieves the highest scores across almost all metrics, such as BLEU-2/3, ROUGE-L, and Distinct-2/3/4, indicating both accurate and diverse natural language generation. This reflects the model’s ability to generate more fluent, informative, and stylistically varied responses.
 <p align="center">
-  <img src="assets/tabel1.png" width="600">>
+  <img src="assets/tabel1.png" width="600">
 </p>
