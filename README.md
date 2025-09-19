@@ -13,7 +13,7 @@ Jiangbo Zhang<sup>4</sup>&nbsp;
 Yaoying Wang<sup>5</sup>&nbsp;
 Biyi Zhou<sup>1</sup>&nbsp;
 
-<sup>1</sup> Organizational Management Department, School of Management, Xi’an Jiaotong University&nbsp; 
+<sup>1</sup> Systems Engineering Institute, Xi’an Jiaotong University&nbsp; 
 <br>
 <sup>2</sup> Shenzhen Institute of Advanced Technology, Chinese Academy of Science&nbsp; 
 <br>
