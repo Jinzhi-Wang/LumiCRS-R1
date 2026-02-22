@@ -41,10 +41,20 @@ To address these issues, LumiCRS introduces three key components (see C):
 
 Together, these modules form a robust framework tailored for long-tail and cold-start challenges in conversational recommendation.
 
-## TO DO
-- [ ] Release full LumiCRS codebase (training & inference) .
-- [ ] Publish pretrained models and benchmark results .
-- [ ] Add documentation and quick-start tutorials
+## Code Availability (for Review & Reproducibility)
+✅ The implementation of LumiCRS has been uploaded to this repository (see `lumicrs/`).
+
+At this revision stage, we provide the core training/evaluation code to support reviewer inspection and reproducibility.  
+A more polished release (quick-start scripts, clearer run instructions, and cleaned documentation) is under preparation and will be updated in this repository.
+
+### What is included now
+- Core model implementation (ACFL + prototype-based contrastive learning + PDA)
+- Training / evaluation pipeline code (config-driven)
+
+### TODO (ongoing cleanup)
+- [ ] Quick-start tutorial & runnable scripts
+- [ ] Reproducibility notes (exact commands / configs)
+- [ ] More detailed documentation and code comments
 
 ## What is LumiCRS?
 LumiCRS is a robust and generalizable conversational recommender system, specifically designed to handle long-tail movie recommendation challenges in real-world dialogue settings. It is distinguished by the following core components: 
